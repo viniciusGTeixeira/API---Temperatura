@@ -1,0 +1,58 @@
+-- Criação do banco de dados
+CREATE DATABASE AeC_DB;
+GO
+
+-- Seleciona o banco de dados
+USE AeC_DB;
+GO
+
+-- Tabela para armazenar os dados das cidades
+CREATE TABLE CityData (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Nome NVARCHAR(255) NOT NULL,
+    Estado NVARCHAR(255) NOT NULL,
+    DataHora DATETIME DEFAULT GETDATE()
+);
+GO
+
+-- Tabela para armazenar os dados do clima
+CREATE TABLE WeatherCityData (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Cidade NVARCHAR(255) NOT NULL,
+    Estado NVARCHAR(255) NOT NULL,
+    AtualizadoEm NVARCHAR(255),
+    Data NVARCHAR(255),
+    Condicao NVARCHAR(255),
+    CondicaoDesc NVARCHAR(255),
+    Min INT,
+    Max INT,
+    IndiceUv INT,
+    DataHora DATETIME DEFAULT GETDATE()
+);
+GO
+
+-- Tabela para armazenar os dados de clima dos aeroportos
+CREATE TABLE WeatherAirportData (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    CodigoIcao NVARCHAR(255) NOT NULL,
+    AtualizadoEm NVARCHAR(255),
+    PressaoAtmosferica INT,
+    Visibilidade NVARCHAR(255),
+    Vento INT,
+    DirecaoVento INT,
+    Umidade INT,
+    Condicao NVARCHAR(255),
+    CondicaoDesc NVARCHAR(255),
+    Temp INT,
+    DataHora DATETIME DEFAULT GETDATE()
+);
+GO
+
+-- Tabela para armazenar logs de erro
+CREATE TABLE ErrorLogs (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Mensagem NVARCHAR(MAX),
+    StackTrace NVARCHAR(MAX),
+    DataHora DATETIME DEFAULT GETDATE()
+);
+GO
