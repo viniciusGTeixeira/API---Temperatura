@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Q1aNxU0XViVmLefaVB7jfdnwjNv1+beRR09fUNrOMO3AAVoyK9KzM3dSlEewNFiah6VkaGB61ArqhMKFx8vNdQ==",
+  "dgSpecHash": "UT/ZhH/S+4FMgt0QUiTwnCYtt7P59NCe4uFLRFX5vK3SdAPG2+J//fDdnbzZRcG37catsZRSY35U9nh+i4h8ng==",
   "success": true,
   "projectFilePath": "/Users/user/Documents/Teste_aec/Temperatura_api/Temperatura_api.csproj",
   "expectedPackageFiles": [
     "/Users/user/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/user/.nuget/packages/azure.identity/1.11.3/azure.identity.1.11.3.nupkg.sha512",
+    "/Users/user/.nuget/packages/dapper/2.1.35/dapper.2.1.35.nupkg.sha512",
     "/Users/user/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/user/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/user/.nuget/packages/microsoft.data.sqlclient/5.2.1/microsoft.data.sqlclient.5.2.1.nupkg.sha512",

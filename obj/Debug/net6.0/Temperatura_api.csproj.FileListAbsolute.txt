@@ -7,6 +7,7 @@
 /Users/user/Documents/Teste_aec/Temperatura_api/bin/Debug/net6.0/Temperatura_api.pdb
 /Users/user/Documents/Teste_aec/Temperatura_api/bin/Debug/net6.0/Azure.Core.dll
 /Users/user/Documents/Teste_aec/Temperatura_api/bin/Debug/net6.0/Azure.Identity.dll
+/Users/user/Documents/Teste_aec/Temperatura_api/bin/Debug/net6.0/Dapper.dll
 /Users/user/Documents/Teste_aec/Temperatura_api/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/user/Documents/Teste_aec/Temperatura_api/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
 /Users/user/Documents/Teste_aec/Temperatura_api/bin/Debug/net6.0/Microsoft.Identity.Client.dll
